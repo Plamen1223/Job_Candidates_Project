@@ -4,7 +4,7 @@
 - [Description](#description)
 - [Used technologies](#used-technologies)
 - [Our team](#our-team)
-- [Contact](#Contact-us)
+- [Contact](#contact-us)
 
 ---
 
@@ -43,4 +43,7 @@
 - PCPetkov18@codingburgas.bg
 - GSLazarov18@codingburgas.bg
 
+
+
+### [Go to Top](#job-candidates-project)
 ---
