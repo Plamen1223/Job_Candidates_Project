@@ -9,7 +9,7 @@
 
 ---
 
-## Description
+## :mortar_board:Description:mortar_board:
 ### Our team
 <table>
   <thead>
