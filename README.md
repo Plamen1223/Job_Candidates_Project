@@ -4,7 +4,7 @@
 - [Description](#description)
 - [Used technologies](#used-technologies)
 - [Our team](#our-team)
-- [Contact](#contact-us)
+- [Contact Us](#contact-us)
 
 ---
 
@@ -45,5 +45,5 @@
 
 
 
-### [Go to Top](#Job_Candidates_Project)
+- [Go to Top](#Job_Candidates_Project)
 ---
