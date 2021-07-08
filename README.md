@@ -9,7 +9,7 @@
 ---
 
 ##:mortar_board:Description:mortar_board:
-###Our team
+### Our team
 <table>
   <thead>
     <tr>
@@ -30,7 +30,7 @@
   </tbody>
 </table>
 
-###Used Technologies
+### Used Technologies
 
 - Visual studio 2019
 - GitHub
@@ -39,7 +39,7 @@
 - Discord
 
 
-###:email:Contact us:telephone_receiver:
+### :email:Contact us:telephone_receiver:
 - PCPetkov18@codingburgas.bg
 - GSLazarov18@codingburgas.bg
 
