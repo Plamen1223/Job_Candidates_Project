@@ -1,10 +1,11 @@
 # :man: Job_Candidates_Project :man:
+<a name="#dinpanel"></a>
 ---
 ### Table of Contents
 - [Description](#description)
 - [Used technologies](#used-technologies)
 - [Our team](#our-team)
-- [Contact Us](#contact-us)
+- [Contact](#contact-us)
 
 ---
 
@@ -45,5 +46,5 @@
 
 
 
-- [Go to Top](#Job_Candidates_Project)
+### [text to show](job_candidates_project#dinpanel)
 ---
