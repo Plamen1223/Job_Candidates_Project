@@ -31,7 +31,7 @@
   </tbody>
 </table>
 
-### Used Technologies
+### :computer:Used Technologies:iphone:
 
 - Visual studio 2019
 - GitHub
