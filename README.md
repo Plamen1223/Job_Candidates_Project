@@ -1,4 +1,4 @@
-# Job_Candidates_Project
+# :man:/play yeah Job_Candidates_Project:man:
 ---
 ### Table of Contents
 - [Description](#description)
@@ -40,7 +40,7 @@
 - Discord
 
 
-### Contact us
+### :email:Contact us:telephone_receiver:
 - PCPetkov18@codingburgas.bg
 - GSLazarov18@codingburgas.bg
 
