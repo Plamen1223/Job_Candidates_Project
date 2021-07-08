@@ -1,4 +1,4 @@
-# :man:Job_Candidates_Project:man:
+# :man: Job_Candidates_Project :man:
 ---
 ### Table of Contents
 - [Description](#description)
@@ -8,7 +8,7 @@
 
 ---
 
-## :mortar_board:Description:mortar_board:
+## :mortar_board: Description :mortar_board:
 ### Our team
 <table>
   <thead>
@@ -39,7 +39,7 @@
 - Discord
 
 
-### :email:Contact us:telephone_receiver:
+### :email: Contact us :telephone_receiver:
 - PCPetkov18@codingburgas.bg
 - GSLazarov18@codingburgas.bg
 
