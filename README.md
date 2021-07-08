@@ -1,10 +1,12 @@
 # :man:Job_Candidates_Project:man:
 ---
 ### Table of Contents
-- [Description](#Description)
-- [Used technologies](#Used Technologies)
+- [Description](#description)
+- [Used technologies](#used-technologies)
 - [Our team](#our-team)
-- [Contact](#Contact-us)
+- [Role](#role)
+- [Contact](#contact-us)
+
 
 ---
 
