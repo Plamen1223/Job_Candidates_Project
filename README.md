@@ -1,17 +1,15 @@
-# :man:Job_Candidates_Project:man:
+#:man:Job_Candidates_Project:man:
 ---
-### Table of Contents
+###Table of Contents
 - [Description](#description)
 - [Used technologies](#used-technologies)
 - [Our team](#our-team)
-- [Role](#role)
 - [Contact](#contact-us)
-
 
 ---
 
-## :mortar_board:Description:mortar_board:
-### Our team
+##:mortar_board:Description:mortar_board:
+###Our team
 <table>
   <thead>
     <tr>
@@ -32,7 +30,7 @@
   </tbody>
 </table>
 
-### Used Technologies
+###Used Technologies
 
 - Visual studio 2019
 - GitHub
@@ -41,7 +39,7 @@
 - Discord
 
 
-### :email:Contact us:telephone_receiver:
+###:email:Contact us:telephone_receiver:
 - PCPetkov18@codingburgas.bg
 - GSLazarov18@codingburgas.bg
 
