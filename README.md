@@ -30,3 +30,11 @@
     </tr>
   </tbody>
 </table>
+
+### Used technologies
+
+- Visual studio 2019
+- GitHub
+- Word
+- PowerPoint
+- Discord
