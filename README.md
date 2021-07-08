@@ -1,11 +1,10 @@
-# :man:Job_Candidates_Project:man:/play yeah 
+# :man:Job_Candidates_Project:man:
 ---
 ### Table of Contents
-- [Description](#description)
-- [Used technologies](#used-technologies)
+- [Description](#Description)
+- [Used technologies](#Used Technologies)
 - [Our team](#our-team)
-- [Role](#role)
-- [Contact](#contact-us)
+- [Contact](#Contact-us)
 
 ---
 
@@ -31,7 +30,7 @@
   </tbody>
 </table>
 
-### :computer:Used technologies:computer:
+### Used Technologies
 
 - Visual studio 2019
 - GitHub
