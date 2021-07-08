@@ -38,3 +38,10 @@
 - Word
 - PowerPoint
 - Discord
+
+
+### Contact us
+- PCPetkov18@codingburgas.bg
+- GSLazarov18@codingburgas.bg
+
+---
