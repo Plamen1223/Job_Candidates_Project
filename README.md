@@ -1,6 +1,6 @@
-#:man:Job_Candidates_Project:man:
+# :man:Job_Candidates_Project:man:
 ---
-###Table of Contents
+### Table of Contents
 - [Description](#description)
 - [Used technologies](#used-technologies)
 - [Our team](#our-team)
@@ -8,7 +8,7 @@
 
 ---
 
-##:mortar_board:Description:mortar_board:
+## :mortar_board:Description:mortar_board:
 ### Our team
 <table>
   <thead>
