@@ -1,6 +1,5 @@
 # :man: Job_Candidates_Project :man:
 <a Job_Candidates_Project="#dinpanel"></a>
-</play yeah>
 ---
 ### Table of Contents
 - [Description](#description)
