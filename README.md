@@ -31,7 +31,7 @@
   </tbody>
 </table>
 
-### Used technologies
+### :computer:Used technologies:computer:
 
 - Visual studio 2019
 - GitHub
