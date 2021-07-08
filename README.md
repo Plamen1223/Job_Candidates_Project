@@ -4,7 +4,7 @@
 - [Description](#description)
 - [Used technologies](#used-technologies)
 - [Our team](#our-team)
-- [Contact](#contact-us)
+- [Contact](#Contact-us)
 
 ---
 
