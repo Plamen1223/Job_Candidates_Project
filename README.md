@@ -8,3 +8,25 @@
 - [Contact](#contact-us)
 
 ---
+
+## Description
+### Our team
+<table>
+  <thead>
+    <tr>
+      <td align="left">
+      Job-Candidites
+      </td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <ul>
+          <li>Plamen Petkov</li>
+          <li>Georgi Lazarov</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
