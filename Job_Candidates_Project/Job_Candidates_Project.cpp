@@ -53,6 +53,7 @@ int main()
 		cout << "|     3 - View all candidates.  |\n";
 		cout << "|     4 - Exit.                 |\n";
 		cout << "*********************************\n";
+		cout << endl;
 		cout << " Enter your choice and press enter: ";
 
 		cin >> choice;
