@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 //#include "bib.h"
 using namespace std;
 
@@ -12,7 +13,6 @@ struct CANDIDATE
 	string address;
 	string education;
 	int yearsOfExpirience;
-	int age;
 	string gender;
 	
 };
@@ -54,30 +54,30 @@ int main()
 		cout << "|     4 - Exit.                 |\n";
 		cout << "*********************************\n";
 		cout << endl;
-		cout << " Enter your choice and press enter: ";
+		cout << "Enter your choice and press enter: ";
 
 		cin >> choice;
 
 		switch (choice)
 		{
 		case 1:
-			for (int i = 0; i < counter; i++)
+			for (int i = 0; i <= counter; i++)
 	{	
-		candidates->id = i;		
+		candidates[i].id= i;
 		cout << "Enter your username: "; 
-		cin >> candidates[i].username;
-		cout << "Enter a Firstname: \n";
-		cin >> candidates[i].firstName;
+		getline(cin, candidates[i].username);
+		cout << "Enter a Firstname: ";
+		getline(cin, candidates[i].firstName);
 		cout << "Enter your Secondname: ";
-		cin >> candidates[i].secondName;
+		getline(cin, candidates[i].secondName);
 		cout << "Enter your password: ";
-		cin >> candidates[i].password;
+		getline(cin, candidates[i].password);
 		cout << "Enter your address: ";
-		cin >> candidates[i].address;
+		getline(cin, candidates[i].address);
 		cout << "Enter what type of education you have: ";
-		cin >> candidates[i].education;
+		getline(cin, candidates[i].education);
 		cout << "Enter your years of expirience: ";
-		cin >> candidates[i].yearsOfExpirience;
+		getline(cin, candidates[i].yearsOfExpirience);
 	}
 			break;
 		case 2:
