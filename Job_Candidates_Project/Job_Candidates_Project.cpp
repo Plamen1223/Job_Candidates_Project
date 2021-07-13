@@ -17,6 +17,29 @@ struct CANDIDATE
 	
 };
 
+void registerForm() 
+{
+	for (int i = 0; i < counter; i++)
+	{
+		candidates[i].id = i;
+		cout << "Enter your username: ";
+		cin.ignore();
+		getline(cin, candidates[i].username);
+		cout << "Enter a Firstname: ";
+		getline(cin, candidates[i].firstName);
+		cout << "Enter your Secondname: ";
+		getline(cin, candidates[i].secondName);
+		cout << "Enter your password: ";
+		getline(cin, candidates[i].password);
+		cout << "Enter your address: ";
+		getline(cin, candidates[i].address);
+		cout << "Enter what type of education you have: ";
+		getline(cin, candidates[i].education);
+		cout << "Enter your years of expirience: ";
+		candidates[i].yearsOfExpirience = readInt();
+	}
+}
+
 int readInt()
 {
 	int a;
@@ -44,7 +67,6 @@ int main()
 	cout << "Enter the number of candidates: ";
 	cin >> counter; 
 	
-	
 	int choice;
 	bool gameOn = true;
 	while (gameOn != false) {
@@ -62,24 +84,7 @@ int main()
 		switch (choice)
 		{
 		case 1:
-			for (int i = 0; i < counter; i++)
-	{	
-		candidates[i].id= i;
-		cout << "Enter your username: "; 
-		cin.ignore();
-		getline(cin, candidates[i].username);
-		cout << "Enter a Firstname: ";
-		getline(cin, candidates[i].firstName);
-		cout << "Enter your Secondname: ";
-		getline(cin, candidates[i].secondName);
-		cout << "Enter your password: ";
-		getline(cin, candidates[i].password);
-		cout << "Enter your address: ";
-		getline(cin, candidates[i].address);
-		cout << "Enter what type of education you have: ";
-		getline(cin, candidates[i].education);
-		cout << "Enter your years of expirience: ";
-		candidates[i].yearsOfExpirience = readInt();
+			registerForm();
 	}
 			break;
 		case 2:
