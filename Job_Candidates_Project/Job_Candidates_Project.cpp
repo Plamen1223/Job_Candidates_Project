@@ -17,42 +17,43 @@ struct CANDIDATE
 	
 };
 
+int readInt()
+{
+	int a;
+
+
+
+	//loops until the user enters an integer
+	while (!(cin >> a))
+	{
+		cin.clear();
+		cin.ignore(INT_MAX, '\n');
+		cout << "Incorrect value! Enter correct number." << endl;
+	}
+
+
+
+	return a;
+}
+
 int main()
 {
 	
 	CANDIDATE candidates[100];
 	int counter = 0;
 	cout << "Enter the number of candidates: ";
-	cin >> counter;
-	/*for (size_t i = 0; i < counter; i++)
-	{	
-		candidates->id = i;		
-		cout << "Enter your username: "; 
-		cin >> candidates[i].username;
-		cout << "Enter a Firstname: ";
-		cin >> candidates[i].firstName;
-		cout << "Enter your Secondname: ";
-		cin >> candidates[i].secondName;
-		cout << "Enter your password: ";
-		cin >> candidates[i].password;
-		cout << "Enter your address: ";
-		cin >> candidates[i].address;
-		cout << "Enter what type of education you have: ";
-		cin >> candidates[i].education;
-		cout << "Enter your years of expirience: ";
-		cin >> candidates[i].yearsOfExpirience;
-	}*/
+	cin >> counter; 
 	
 	
 	int choice;
 	bool gameOn = true;
 	while (gameOn != false) {
-		cout << "*********************************\n";
-		cout << "|     1 - Register.             |\n";
-		cout << "|     2 - login.                |\n";
-		cout << "|     3 - View all candidates.  |\n";
-		cout << "|     4 - Exit.                 |\n";
-		cout << "*********************************\n";
+		cout << "       *********************************        " << endl;
+		cout << "       |     1 - Register.             |        " << endl;
+		cout << "       |     2 - login.                |        " << endl;
+		cout << "       |     3 - View all candidates.  |        " << endl;
+		cout << "       |     4 - Exit.                 |        " << endl;
+		cout << "       *********************************        " << endl;
 		cout << endl;
 		cout << "Enter your choice and press enter: ";
 
@@ -61,10 +62,11 @@ int main()
 		switch (choice)
 		{
 		case 1:
-			for (int i = 0; i <= counter; i++)
+			for (int i = 0; i < counter; i++)
 	{	
 		candidates[i].id= i;
 		cout << "Enter your username: "; 
+		cin.ignore();
 		getline(cin, candidates[i].username);
 		cout << "Enter a Firstname: ";
 		getline(cin, candidates[i].firstName);
@@ -77,7 +79,7 @@ int main()
 		cout << "Enter what type of education you have: ";
 		getline(cin, candidates[i].education);
 		cout << "Enter your years of expirience: ";
-		getline(cin, candidates[i].yearsOfExpirience);
+		candidates[i].yearsOfExpirience = readInt();
 	}
 			break;
 		case 2:
