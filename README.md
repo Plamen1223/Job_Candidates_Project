@@ -10,8 +10,8 @@
 ---
 
 ## :mortar_board: Description :mortar_board:
-### Our team
-<table>
+### Our team   
+<table> <img src="https://user-images.githubusercontent.com/60141913/125410227-5f305e80-e3c5-11eb-9397-2a5fc0d93a8d.png" width="350"> 
   <thead>
     <tr>
       <td align="left">
