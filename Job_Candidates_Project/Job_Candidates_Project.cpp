@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-//#include "bib.h"
 using namespace std;
 
 
@@ -43,18 +42,17 @@ int readInt()
     return a;
 }
 
-
+CANDIDATE candidates[100];
+int numberOfCandidates = 0;
 
 void registerForm()
 {
-    CANDIDATE candidates[100];
-    int numberOfCandidates = 0;
     cout << "Enter the number of candidates: ";
     cin >> numberOfCandidates;
     for (int i = 0; i < numberOfCandidates; i++)
     {
         candidates[i].id = i;
-        cout << "Enter your username: ";
+        cout << "Enter your userName: ";
         cin.ignore();
         getline(cin, candidates[i].username);
         cout << "Enter a Firstname: ";
@@ -72,49 +70,44 @@ void registerForm()
         if (numberOfCandidates >= 2)
         {
             cout << endl << "Enter data for the  next candidate: " << endl;
+            cout << endl;
+        }
+        else
+        {
+            cout << "\n\nThank you for your registration!\n" << endl;
         }
     }
 }
 void loginForm()
 {
-    CANDIDATE registeredCandidates[100];
+    string userName;
+    string password;
     int loginAttempt = 0;
 
-
-
-    while (loginAttempt < 5)
-    {
-
-
-
-
-        if (registeredCandidates[j].username == candidates[i].username && registeredCandidates[j].password == candidates[i].password)
+        for (int i = 0; i < numberOfCandidates; i++)
         {
-            cout << "Welcome Greg!\n";
-            break;
+            cout << "Please enter your user name: ";
+            cin >> userName;
+            cout << "Please enter your user password: ";
+            cin >> password;
+
+            if (userName == candidates->username, password == candidates->password)
+            {
+                cout << "Welcome " << userName << "!" << endl;
+                break;
+            }
+            else
+            {
+                cout << "Invalid login attempt. Please try again.\n" << '\n';
+                loginAttempt++;
+            }
         }
-        else if (userName == "patrick" && userPassword == "dunn")
-        {
-            cout << "Welcome Patrick!\n";
-            break;
-        }
-        else
-        {
-            cout << "Invalid login attempt. Please try again.\n" << '\n';
-            loginAttempt++;
-        }
-    }
-    if (loginAttempt == 5)
-    {
-        cout << "Too many login attempts! The program will now terminate.";
+       
 
-    }
-
-
-
-    cout << "Thank you for logging in.\n";
+        cout << "\nThank you for logging in.\n";
+   
 }
-}
+
 
 
 
@@ -128,12 +121,12 @@ int main()
     int choice;
     bool gameOn = true;
     while (gameOn != false) {
-        cout << "       *********************************        " << endl;
-        cout << "       |     1 - Register.             |        " << endl;
-        cout << "       |     2 - login.                |        " << endl;
-        cout << "       |     3 - View all candidates.  |        " << endl;
-        cout << "       |     4 - Exit.                 |        " << endl;
-        cout << "       *********************************        " << endl;
+        cout << "                               **************************************************             " << endl;
+        cout << "                               |     1 - Register.                              |             " << endl;
+        cout << "                               |     2 - login.(You have to register first!)    |             " << endl;
+        cout << "                               |     3 - View all candidates.                   |             " << endl;
+        cout << "                               |     4 - Exit.                                  |             " << endl;
+        cout << "                               **************************************************             " << endl;
         cout << endl;
         cout << "Enter your choice and press enter: ";
 
@@ -151,8 +144,8 @@ int main()
 
             break;
         case 2:
-            cout << "Story so far....\n";
-            // rest of code here
+            loginForm();
+         
             break;
         case 3:
             cout << "Ahahah, you really think I will help you?\n";
