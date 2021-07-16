@@ -6,19 +6,20 @@ using namespace std;
 
 struct CANDIDATE
 {
-    int id;
+    int id = 0;
     string firstName;
     string secondName;
     string username;
     string password;
     string address;
     string education;
-    int yearsOfExpirience;
+    int yearsOfExpirience = 0;
     string gender;
 
 
 
 };
+
 int readInt()
 {
     int a;
@@ -78,6 +79,7 @@ void registerForm()
         }
     }
 }
+
 void loginForm()
 {
     string userName;
@@ -105,7 +107,7 @@ void loginForm()
        
 
         cout << "\nThank you for logging in.\n";
-   
+        loginAttempt = 0;
 }
 
 
@@ -125,7 +127,8 @@ int main()
         cout << "                               |     1 - Register.                              |             " << endl;
         cout << "                               |     2 - login.(You have to register first!)    |             " << endl;
         cout << "                               |     3 - View all candidates.                   |             " << endl;
-        cout << "                               |     4 - Exit.                                  |             " << endl;
+        cout << "                               |     4 - Delete candidate.                      |             " << endl;
+        cout << "                               |     5 - Exit.                                  |             " << endl;
         cout << "                               **************************************************             " << endl;
         cout << endl;
         cout << "Enter your choice and press enter: ";
@@ -148,10 +151,17 @@ int main()
          
             break;
         case 3:
-            cout << "Ahahah, you really think I will help you?\n";
-            // rest of code here
+            cout << candidates->id << endl;
+            cout << candidates->username << endl;
+            cout << candidates->firstName << endl;
+            cout << candidates->secondName << endl;
+
             break;
         case 4:
+            cout << candidates->username << endl;
+
+            break;
+        case 5:
             cout << "End of Program.\n";
             gameOn = false;
             break;
